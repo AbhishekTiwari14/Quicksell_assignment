@@ -1,0 +1,49 @@
+.kanban-board {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+  padding: 1px;
+}
+
+.kanban-column {
+  min-width: 300px;
+  flex: 1 1 300px;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.group-header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.group-header-right-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.group-right-icons img {
+  width: 20px; /* Adjust image size as needed */
+  height: 20px;
+}
+
+.group-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
